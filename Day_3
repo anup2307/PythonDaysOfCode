@@ -1,0 +1,10 @@
+string1 = "This is to the count the vowels. Anu Priya"
+vowels ='aeiou'
+count =0
+string2 = string1.lower()
+
+for s in string2:
+    if s in vowels:
+        count +=1
+        
+print('vowels count',count)
