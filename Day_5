@@ -1,0 +1,8 @@
+def max_min(l):
+    print(l)
+    print ('The minimum no is',min(l))
+    print('The maximum no is', max(l))
+
+
+user_list = input("Enter numbers : ")
+max_min(list(user_list))
