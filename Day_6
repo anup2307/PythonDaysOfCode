@@ -1,0 +1,8 @@
+string = 'Hi this is anu good mornhing testing strings'
+character_to_find = 'h'
+count =0
+for x in string:
+    if character_to_find == x:
+        count +=1
+print(count)
+print (string.count('h'))
