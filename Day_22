@@ -1,0 +1,10 @@
+list = [2,43,90,76,3,4,5,6]
+max = max(list)
+secondhighest =0
+for x in list:
+    if x<max and x>secondhighest:
+        secondhighest = x
+print(secondhighest)
+
+list.sort()
+print(list[-2])
