@@ -1,0 +1,11 @@
+dict = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+key = 'years'
+keys = dict.keys()
+if key in keys:
+    print('yes the key is present')
+else:
+    print('sorry key not found')
