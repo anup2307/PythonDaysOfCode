@@ -1,0 +1,9 @@
+str ="Hi this is a test script. The script is very usefull. the script is very important."
+words =[]
+for x in str.lower().split():    
+    if x[-1]==".":
+            x=x[0:len(x)-1]
+    if x not in words:
+        freq = str.count(x)
+        print (x,'=',freq)
+        words.append(x)
