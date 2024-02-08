@@ -1,0 +1,9 @@
+vowels = 'aeiouAEIOU'
+str = 'Hi This is my new pet, Aana, Aana is out walking with my dad'
+strlist = list(str)
+print(strlist)
+for x in str:
+    if x in vowels:
+        strlist.remove(x)
+print(''.join(strlist))
+        
