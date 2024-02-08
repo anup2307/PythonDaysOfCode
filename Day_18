@@ -1,0 +1,2 @@
+num = [34,43,12]
+print('The largest no is:',max(num))
