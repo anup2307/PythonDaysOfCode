@@ -1,0 +1,7 @@
+import random
+def pick_random_no():
+    a = int(input("Enter a starting value for the range: "))
+    b = int(input("Enter an ending value for the range: "))
+    print(random.randint(a,b))
+    return
+pick_random_no()
