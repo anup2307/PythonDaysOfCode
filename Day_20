@@ -1,0 +1,8 @@
+list = [2,3,4,5,6,7,8,9,102,354,789]
+eventlist= []
+def even_list(list):
+    for x in list:
+        if x%2 ==0:
+            eventlist.append(x)
+    return eventlist
+print(even_list(list))
