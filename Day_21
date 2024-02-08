@@ -1,0 +1,3 @@
+set = {2,4, 6, 4, 8, 10,111}
+set.discard(1)
+print(set)
