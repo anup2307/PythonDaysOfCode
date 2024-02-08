@@ -1,0 +1,3 @@
+cars = ['Ford', 'BMW', 'Audi', 'Acura', 'Mazda', 'Volvo']
+cars.sort()
+print(cars)
