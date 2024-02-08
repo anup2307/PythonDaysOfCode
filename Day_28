@@ -1,0 +1,7 @@
+n=4
+cars = ['Ford', 'BMW', 'Audi', 'Acura', 'Mazda', 'Volvo']
+if n>0 and n<len(cars):
+    cars.pop(n)
+    print(cars)
+else:
+    print('the index is greater than the length of the list')
