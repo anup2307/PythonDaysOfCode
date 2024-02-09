@@ -1,0 +1,14 @@
+list = [43,25,12,9,30,15,10,3,6,23,0,45,54,-1,-3]
+min = min(list)
+
+def second_smallest_no(list):
+    secondsmallest =0
+    for x in list:
+        if x>min and x<secondsmallest:
+            secondsmallest = x
+    return secondsmallest
+print(second_smallest_no(list))
+
+list.sort()
+print(list)
+print(list[1])
