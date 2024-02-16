@@ -1,0 +1,20 @@
+child1 = {
+  "name" : "Emil",
+  "year" : 2004,
+  "favcolor": "blue"
+}
+child2 = {
+  "name" : "Tobias",
+  "year" : 2007
+}
+
+family = {
+    "child1":child1,
+    "child2":child2
+}
+print(family)
+
+family={}
+family.update(child1)
+family.update(child2)
+print(family)
