@@ -3,3 +3,4 @@ txt = "one one was a race horse, two two was one too."
 x = txt.replace(" ","")
 
 print(x)
+print(''.join(txt.split()))
