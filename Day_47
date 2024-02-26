@@ -1,0 +1,7 @@
+import math
+
+print(math.pow(9, 2))
+sequence = (2, 2, 3)
+print(math.prod(sequence))
+print (math.sqrt(10))
+print (math.isqrt(10))
