@@ -1,0 +1,8 @@
+list = [2,3,5,6,8]
+def sorted_list(list):
+    if (list == sorted(list)):
+        return 'List is sorted'
+    else:
+        return 'List is not sorted'
+
+print(sorted_list(list))
