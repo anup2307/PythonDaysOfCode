@@ -1,0 +1,23 @@
+str = 'ababA'
+def palindrome(str):
+    str = str.lower()
+    leng = len(str)
+    for x in range(int(len(str)/2)):
+        if str[x]== str[leng-1]:
+            leng = leng-1
+        else:
+            return ('Not a palindrome')                
+    return ('Its a palidrome')
+
+print(palindrome(str))
+
+def isPalindrome(s):
+    return s == s[::-1]
+
+s = "malayalam"
+ans = isPalindrome(s)
+ 
+if ans:
+    print("Yes")
+else:
+    print("No")
