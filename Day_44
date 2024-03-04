@@ -1,0 +1,5 @@
+num= input('Enter a number: ')
+try:
+    int(num)
+except Exception:
+    print('Input must be an integer')
