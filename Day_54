@@ -1,0 +1,9 @@
+str = 'Hi umbrella, this is a function to find all words in a sentence that start with a vowel, octopus'
+def vowels_in_str(str):
+    vowels = 'aeiou'
+    str = str.lower().split(' ')
+    for x in (str):
+        if x[0] in vowels:
+            print (x)
+
+vowels_in_str(str)
