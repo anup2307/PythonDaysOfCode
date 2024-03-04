@@ -1,0 +1,6 @@
+import math
+def find_gcd(num1, num2):
+    return math.gcd(num1, num2)
+num1 = int(input("Num one = "))
+num2 = int(input("Num two = "))
+print(str(find_gcd(num1, num2)))
