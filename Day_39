@@ -1,0 +1,6 @@
+from collections import Counter
+
+file  = open(r"C:\Users\aarav\bootcamp\Python\sample.txt.txt", "r").read().lower().strip().split()
+print(file)
+frequesntwords = Counter(file).most_common(5)
+print(frequesntwords)
