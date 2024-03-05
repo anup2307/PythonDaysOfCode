@@ -1,0 +1,19 @@
+import unittest
+
+def chk_prime_or_not(n):
+    if n <= 1:
+        return False
+    for i in range(2, int(n**0.5)+1):
+        if n % i == 0:
+            return False
+    return True
+    
+class TestPrime(unittest.TestCase):
+    def test_prime_not_prime(self):
+        self.assertTrue(chk_prime_or_not(2))
+        self.assertTrue(chk_prime_or_not(5))
+        self.assertFalse(chk_prime_or_not(9))
+        self.assertTrue(chk_prime_or_not(11))
+
+if __name__=='__main__':
+	unittest.main()
