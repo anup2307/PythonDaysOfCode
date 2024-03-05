@@ -1,0 +1,9 @@
+def reverse_string(str_list):
+    for i in range (len(str_list)):
+        str_list[i] = str_list[i][::-1]
+    str = ' '.join(str_list)
+    print(str)
+
+str = input('Enter a sentence: ')
+str_list = str.split(' ')
+reverse_string(str_list)
