@@ -1,0 +1,7 @@
+import re
+url_regex =r"(?i)\b((?:https?://|www\d{0,3}[.]|[a-z0-9.\-]+[.][a-z]{2,4}/)(?:[^\s()<>]+|\(([^\s()<>]+|(\([^\s()<>]+\)))*\))+(?:\(([^\s()<>]+|(\([^\s()<>]+\)))*\)|[^\s`!()\[\]{};:'\".,<>?«»“”‘’]))"
+def find_URL(text):
+    url =  re.findall(url_regex,text)
+    return [x[0] for x in url]
+text = 'I m working on the below 2 issues,  https://quality.wevote.us/pryan  and  https://quality.wevote.us/sierraclub. 99 is solved and 22 is yet to be solved'
+print(find_URL(text))
