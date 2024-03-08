@@ -1,0 +1,8 @@
+str = '8'
+def string_to_int_conversion(str):
+    try:
+        print ('Converted: ',int(str))
+    except ValueError as ve:
+        print('Invalid Input: ', ve)
+
+string_to_int_conversion(str)
